@@ -241,7 +241,7 @@ const NewTask = () => {
     const handleClick = (e) => {
         e.preventDefault();
         setLoading(true);
-        axios.post('https://task-management-backend-gmyf.vercel.app//api/tasks', {
+        axios.post('https://task-management-backend-gmyf.vercel.app/api/tasks', {
             task: input.task,
             desc: input.desc,
             deadline: input.deadline,
